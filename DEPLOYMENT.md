@@ -47,7 +47,7 @@ Expected: requests after the first 10 in one minute return `429`.
 ## Environment Variables Set
 
 - `PORT`
-- `REDIS_URL` if Redis is attached; current Railway deployment uses the app's memory fallback.
+- `REDIS_URL`
 - `AGENT_API_KEY`
 - `JWT_SECRET`
 - `RATE_LIMIT_PER_MINUTE=10`
